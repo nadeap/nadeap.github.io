@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background: #14213d;
+    position: relative;
+    margin: auto;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: #edf2f4;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+span{
+    color: #fca311;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #14213d;
+    background: #edf2f4;
+    font-size: 12px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    color: #14213d;
+    font-weight: bold;
+}
+.content {
+    color: #edf2f4;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.content h1{
+    color: #fca311;
+}
+.content h3{
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.content h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.content p{
+    color: #edf2f4;
+    line-height: 22px;
+}
+.content a{
+    background: #edf2f4;
+    padding: 10px 18px;
+    color: #14213d;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.content a:hover{
+    color: #fca311;
+    border: 2px #edf2f4;
+}
+.image{
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+    bottom: 0;
+    right: 100px;
+    position: absolute;
+}
+.sosial{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.sosial a{
+    font-size: 20px;
+    color: #fca311;
+    margin-right: 20px;
+    display: inline-block;
+}
+.sosial a:hover{
+    color: antiquewhite;
+    border-bottom: 2px solid #edf2f4;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #14213d;
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img{
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text h2{
+    color: #fb8500;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fb8500;
+}
+.about-text h5{
+    color: #edf2f4;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #edf2f4;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.portfolio{
+    background: #14213d;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2{
+    color: #edf2f4;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.isiporto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.porto1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #14213d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #edf2f4;
+}
+.porto1 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #fb8500;
+}
+.porto1 h5{
+    color: #fb8500;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.DA p{
+    color: #edf2f4;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.DA p a{
+    background-color: #fb8500;
+    color: #edf2f4;
+    border: 2px solid #edf2f4;
+    font-weight: 10px 22px;
+    border-radius: 60px;
+}
+.DA p a:hover{
+    background-color: transparent;
+    border: 2px solid #fb8500;
+    cursor: pointer;
+}
+
+.porto2{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #14213d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #edf2f4;
+}
+.porto2 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #fb8500;
+}
+.porto2 h5{
+    color: #fb8500;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.DV p{
+    color: #edf2f4;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.DV p a{
+    background-color: #fb8500;
+    color: #edf2f4;
+    border: 2px solid #edf2f4;
+    font-weight: 10px 22px;
+    border-radius: 60px;
+}
+.DV p a:hover{
+    background-color: transparent;
+    border: 2px solid #fb8500;
+    cursor: pointer;
+}
+
+.porto3{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #14213d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #edf2f4;
+}
+.porto3 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #fb8500;
+}
+.porto3 h5{
+    color: #fb8500;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.carclassification p{
+    color: #edf2f4;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.carclassification p a{
+    background-color: #fb8500;
+    color: #edf2f4;
+    border: 2px solid #edf2f4;
+    font-weight: 10px 22px;
+    border-radius: 60px;
+}
+.carclassification p a:hover{
+    background-color: transparent;
+    border: 2px solid #fb8500;
+    cursor: pointer;
+}
