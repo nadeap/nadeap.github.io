@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 .main {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background: #ffffff;
     position: relative;
@@ -95,8 +95,9 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 .sosial a{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #14213d;
+    margin-top: 20px;
     margin-right: 10px;
     display: inline-block;
 }
@@ -169,13 +170,13 @@ nav ul li a:hover {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #ffffff;
+    background: #f5ebe0;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    border: 1px solid #14213d;
+    border: 2px solid #14213d;
 }
 .porto1 i{
     font-size: 50px;
@@ -196,102 +197,49 @@ nav ul li a:hover {
     margin-bottom: 25px;
     text-align: justify;
 }
-.DA a{
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
-    line-height: 42px;
-    padding: 0;
+.DA a {
     border: none;
-}
-.DA a span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-.DA a:before,
+    color: #14213d;
+  }
 .DA a:after {
     position: absolute;
     content: "";
-    right: 0;
-    bottom: 0;
-    background: rgba(251,75,2,1);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
     box-shadow:
-     -7px -7px 20px 0px rgba(255,255,255,.9),
-     -4px -4px 5px 0px rgba(255,255,255,.9),
-     7px 7px 20px 0px rgba(0,0,0,.2),
-     4px 4px 5px 0px rgba(0,0,0,.3);
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
     transition: all 0.3s ease;
 }
-.DA a:before{
-    height: 0%;
-    width: 2px;
-}
-.DA a:after {
-    width: 0%;
-    height: 2px;
-}
-.DA a:hover{
-    color: rgba(251,75,2,1);
-    background: transparent;
-}
-.DA a:hover:before {
-    height: 100%;
+.DA a:hover {
+    color: #14213d;
 }
 .DA a:hover:after {
+    left: auto;
+    right: 0;
     width: 100%;
 }
-.DA a:before,
-.DA a span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    background: rgba(251,75,2,1);
-    box-shadow:
-     -7px -7px 20px 0px rgba(255,255,255,.9),
-     -4px -4px 5px 0px rgba(255,255,255,.9),
-     7px 7px 20px 0px rgba(0,0,0,.2),
-     4px 4px 5px 0px rgba(0,0,0,.3);
-    transition: all 0.3s ease;
-    }
-.DA a span:before {
-    width: 2px;
-    height: 0%;
+.DA a:active {
+    top: 2px;
 }
-.DA a span:after {
-    height: 2px;
-    width: 0%;
-}
-.DA a span:hover:before {
-    height: 100%;
-}
-.DA a span:hover:after {
-    width: 100%;
-}
-/* .DA p a{
-    background-color: #14213d;
-    color: #edf2f4;
-    border: 2px solid #ffffff;
-    font-weight: 10px 22px;
-    border-radius: 60px;
-}
-.DA p a:hover{
-    background-color: transparent;
-    border: 2px solid #14213d;
-    cursor: pointer; */
-/* } */
 
 .porto2{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #ffffff;
+    background: #f5ebe0;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    border: 1px solid #14213d;
+    border: 2px solid #14213d;
 }
 .porto2 i{
     font-size: 50px;
@@ -312,30 +260,49 @@ nav ul li a:hover {
     margin-bottom: 25px;
     text-align: justify;
 }
-.DV p a{
-    background-color: #ffffff;
+.DV a {
+    border: none;
     color: #14213d;
-    border: 2px solid #14213d;
-    font-weight: 10px 22px;
-    border-radius: 60px;
+  }
+.DV a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
 }
-.DV p a:hover{
-    background-color: transparent;
-    border: 2px solid #14213d;
-    cursor: pointer;
+.DV a:hover {
+    color: #14213d;
+}
+.DV a:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.DV a:active {
+    top: 2px;
 }
 
 .porto3{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #ffffff;
+    background: #f5ebe0;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    border: 1px solid #14213d;
+    border: 2px solid #14213d;
 }
 .porto3 i{
     font-size: 50px;
@@ -356,15 +323,34 @@ nav ul li a:hover {
     margin-bottom: 25px;
     text-align: justify;
 }
-.carclassification p a{
-    background-color: #14213d;
+.carclassification a {
+    border: none;
     color: #14213d;
-    border: 2px solid #14213d;
-    font-weight: 10px 22px;
-    border-radius: 60px;
+  }
+.carclassification a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
 }
-.carclassification p a:hover{
-    background-color: transparent;
-    border: 2px solid #14213d;
-    cursor: pointer;
+.carclassification a:hover {
+    color: #14213d;
+}
+.carclassification a:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.carclassification a:active {
+    top: 2px;
 }
