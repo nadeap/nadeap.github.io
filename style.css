@@ -95,9 +95,9 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 .sosial a{
-    font-size: 20px;
+    font-size: 3rem;
     color: #14213d;
-    margin-right: 20px;
+    margin-right: 10px;
     display: inline-block;
 }
 .sosial a:hover{
