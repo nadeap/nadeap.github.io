@@ -97,7 +97,7 @@ nav ul li a:hover {
 .sosial a{
     font-size: 2rem;
     color: #14213d;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 10px;
     display: inline-block;
 }
@@ -167,8 +167,8 @@ nav ul li a:hover {
     min-height: 400px;
 }
 .porto1{
-    height: 365px;
-    width: 335px;
+    height: 200px;
+    width: 200px;
     padding: 20px 35px;
     background: #f5ebe0;
     border-radius: 20px;
@@ -187,12 +187,12 @@ nav ul li a:hover {
 }
 .porto1 h5{
     color: #14213d;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .DA p{
     color: #14213d;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 27px;
     margin-bottom: 25px;
     text-align: justify;
@@ -230,8 +230,8 @@ nav ul li a:hover {
 }
 
 .porto2{
-    height: 365px;
-    width: 335px;
+    height: 200px;
+    width: 200px;
     padding: 20px 35px;
     background: #f5ebe0;
     border-radius: 20px;
@@ -250,12 +250,12 @@ nav ul li a:hover {
 }
 .porto2 h5{
     color: #14213d;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .DV p{
     color: #14213d;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 27px;
     margin-bottom: 25px;
     text-align: justify;
@@ -293,8 +293,8 @@ nav ul li a:hover {
 }
 
 .porto3{
-    height: 365px;
-    width: 335px;
+    height: 200px;
+    width: 200px;
     padding: 20px 35px;
     background: #f5ebe0;
     border-radius: 20px;
@@ -313,12 +313,12 @@ nav ul li a:hover {
 }
 .porto3 h5{
     color: #14213d;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .carclassification p{
     color: #14213d;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 27px;
     margin-bottom: 25px;
     text-align: justify;
