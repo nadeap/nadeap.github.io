@@ -389,3 +389,59 @@ nav ul li a:hover {
 .ipm a:active {
     top: 2px;
 }
+
+.porto5{
+    height: 200px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #f5ebe0;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid #14213d;
+}
+.porto5 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #14213d;
+}
+.porto5 h5{
+    color: #14213d;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.next a {
+    border: none;
+    color: #14213d;
+  }
+.next a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+.next a:hover {
+    color: #14213d;
+}
+.next a:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.next a:active {
+    top: 2px;
+}
