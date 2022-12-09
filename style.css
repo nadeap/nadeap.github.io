@@ -333,3 +333,59 @@ nav ul li a:hover {
 .carclassification a:active {
     top: 2px;
 }
+
+.porto4{
+    height: 200px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #f5ebe0;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid #14213d;
+}
+.porto4 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #14213d;
+}
+.porto4 h5{
+    color: #14213d;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.ipm a {
+    border: none;
+    color: #14213d;
+  }
+.ipm a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+.ipm a:hover {
+    color: #14213d;
+}
+.ipm a:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.ipm a:active {
+    top: 2px;
+}
