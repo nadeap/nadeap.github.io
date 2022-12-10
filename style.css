@@ -414,11 +414,11 @@ nav ul li a:hover {
     font-size: 18px;
     margin-bottom: 15px;
 }
-.next a {
+.SA a {
     border: none;
     color: #14213d;
   }
-.next a:after {
+.SA a:after {
     position: absolute;
     content: "";
     width: 0;
@@ -434,14 +434,14 @@ nav ul li a:hover {
      4px 4px 5px 0px #0001;
     transition: all 0.3s ease;
 }
-.next a:hover {
+.SA a:hover {
     color: #14213d;
 }
-.next a:hover:after {
+.SA a:hover:after {
     left: auto;
     right: 0;
     width: 100%;
 }
-.next a:active {
+.SA a:active {
     top: 2px;
 }
