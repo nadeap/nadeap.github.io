@@ -119,12 +119,11 @@ nav ul li a:hover {
     margin-top: 10%;
 }
 .about-me{
-    margin-left: 8%;
-    margin-top: 10%;
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 .about-me h2{
@@ -134,14 +133,14 @@ nav ul li a:hover {
     margin-bottom: 20px;
     border-bottom: 1px solid #14213d;
 }
-.about-me h5{
+.about-text h5{
     color: #14213d;
     letter-spacing: 2px;
     font-size: 4vmin;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.about-me p{
+.about-text p{
     color: #14213d;
     letter-spacing: 1px;
     line-height: 20px;
