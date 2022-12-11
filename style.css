@@ -119,40 +119,29 @@ nav ul li a:hover {
     margin-top: 10%;
 }
 .about-me{
+    margin-left: 8%;
+    margin-top: 10%;
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
-.about-me img{
-    margin-top: 5vmin;
-    font-size: 50vmin;
-    height: auto;
-    width: 30vmin;
-    border-radius: 20px;
-}
-.about-text{
-    width: 550px;
-    margin-left: 8%;
-    margin-top: 10%;
-}
-.about-text h2{
+.about-me h2{
     color: #14213d;
     font-size: 10vmin;
     text-transform: capitalize;
     margin-bottom: 20px;
     border-bottom: 1px solid #14213d;
 }
-.about-text h5{
+.about-me h5{
     color: #14213d;
     letter-spacing: 2px;
     font-size: 4vmin;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.about-text p{
+.about-me p{
     color: #14213d;
     letter-spacing: 1px;
     line-height: 20px;
