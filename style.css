@@ -112,6 +112,8 @@ nav ul li a:hover {
     width: 100%;
     padding: 100px 0;
     background-color: #ffffff;
+    margin-left: 8%;
+    margin-top: 10%;
 }
 .about-me{
     width: 1130px;
