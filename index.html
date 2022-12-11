@@ -1,88 +1,177 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>wertax0</title>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="main">
-            <nav>
-                <label class="logo">wertax<span>0</span></label>
-                <!-- <ul>
-                    <li><a class="page-scroll" href="#home">Home</a></li>
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                </ul> -->
-            </nav>
-            <div class="content">
-                <h3>Hi! My name is</h3>
-                <h1>Nadea Putri</h1>
-                <p>I'm a Student and Data Enthusiast <br> Data Science'20 Telkom Purwokerto Institute of Technology</p>
-                <a href="#connect">Let's connect with me:</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wertax0</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Box Icons -->
+    <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">wertax0</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+ 
+    <section class="home" id="home">
+        <div class="social">
+            <a target="_blank" href="https://www.linkedin.com/in/nadeaputrinf/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/nadeap/"><i class="fa-brands fa-square-github"></i></a>
+            <a target="_blank" href="https://www.instagram.com/nadea.pnf/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/wertax0"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="ayas.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hi! My name is</span>
+            <h1>Nadea Putri</h1>
+            <h2>Student & Data Enthusiast</h2>
+            <p>Data Science'20 <br> Telkom Purwokerto Institute of Technology </p>
+            <a href="/nadeaaap@gmail.com" class="btn">Contact Me</a>
+        </div>
+ 
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="yeay.jpg" alt="">
             </div>
-            <!-- <div class="image">
-                <img src="nadnad.png"></img>
-            </div> -->
-            <div class="sosial">
-                <a href="https://www.linkedin.com/in/nadeaputrinf/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/nadeap/"><i class="fa-brands fa-square-github"></i></a>
-                <a href="https://www.instagram.com/nadea.pnf/"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="https://twitter.com/wertax0"><i class="fa-brands fa-square-twitter"></i></a>
+            <div class="about-text">
+                <p>Hi everyone! My name is Nadea Putri Nur Fauzi. 
+                    I am a student of the Data Science undergraduate program. I am from Lamongan, East Java, Indonesia. 
+                    My hobby is traveling to nature. Currently, I am studying Artificial Intelligence, 
+                    specifically Data Science, Machine Learning, Deep Learning, Natural Language Processing, and Computer Vision. 
+                    I believe that by working together, we can achieve better results and have a positive impact on the world. 
+                    Therefore, I am very happy to be able to work with all of you.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>wertax0</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+62 8314 4321 841</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>nadeaaap@gmail.com</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Download CV</a>
             </div>
         </div>
-        <section id="about" class="about">
-            <div class="about-me">
-                <!-- <img src="hai.jpg"> -->
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Student and Data Enthusiast</h5>
-                    <p>Hi everyone! My name is Nadea Putri Nur Fauzi. 
-                        I am a student of the Data Science undergraduate program. I am from Lamongan, East Java, Indonesia. 
-                        My hobby is traveling to nature. Currently, I am studying Artificial Intelligence, 
-                        specifically Data Science, Machine Learning, Deep Learning, Natural Language Processing, and Computer Vision. 
-                        I believe that by working together, we can achieve better results and have a positive impact on the world. 
-                        Therefore, I am very happy to be able to work with all of you.</p>
-                </div>
+    </section>
 
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Personal Services</h2>
+            <span>My personal services! so, let's discuss about this</span>
+        </div>
+        <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <i class="fa-solid fa-table"></i>
+                <h3>Data Analyst</h3>
+                <a href="#">Learn More</a>
             </div>
-        </section>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>Data Scientist</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="services-box">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Machine Learning</h3>
+                <a href="#">Learn More</a>
+            </div>
 
-        <div class="container">
-            <h1>My Portofolio</h1>
-            <div class="row g-3">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="./img/amazon.png" class="card-img-top" alt="Amazon Book Analysis">
-                        <div class="card-body">
-                            <h5 class="card-title">Amazon Book Analysis</h5>
-                            <a  target="_blank" href="https://github.com/nadeap/Data-Analyst/blob/main/Amazon%20Book%20Analysis.ipynb" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="./img/walmart.png" class="card-img-top" alt="Walmart Retail Dashboard">
-                        <div class="card-body">
-                            <h5 class="card-title">Walmart Retail Dashboard</h5>
-                            <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p> -->
-                            <a  target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiZDM5ZWMxY2EtMmI5Mi00OWM0LWJkOWMtODMzZjhmNTE4Y2NkIiwidCI6IjM3YTQyZTI3LWVhMTctNGVjOC05NGRmLWUwM2NjZTcyNDE5MCIsImMiOjEwfQ%3D%3D" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="./img/car.png" class="card-img-top" alt="Car Classification Using D-Tree">
-                        <div class="card-body">
-                            <h5 class="card-title">Car Classification Using D-Tree</h5>
-                            <a  target="_blank" href="https://github.com/nadeap/Machine-Learning/blob/main/Car%20evaluation%20using%20Decision%20Tree.ipynb" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="services-box">
+                <i class="fa-solid fa-file"></i>
+                <h3>Content Writing</h3>
+                <a target="_blank" href="https://medium.com/@wertax.0">Learn More</a>
             </div>
         </div>
-    </body>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>My Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="amazon.png" alt="">
+                <a target="_blank" href="https://github.com/nadeap/Data-Analyst/blob/main/Amazon%20Book%20Analysis.ipynbedium.com/@wertax.0" class="btn">Read More</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="walmart.png" alt="">
+                <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiZDM5ZWMxY2EtMmI5Mi00OWM0LWJkOWMtODMzZjhmNTE4Y2NkIiwidCI6IjM3YTQyZTI3LWVhMTctNGVjOC05NGRmLWUwM2NjZTcyNDE5MCIsImMiOjEwfQ%3D%3D" class="btn">Read More</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="car.png" alt="">
+                <a target="_blank" href="#" class="btn">Learn More</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="ipm.png" alt="">
+                <a target="_blank" href="#" class="btn">Learn More</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="animal.png" alt="">
+                <a target="_blank" href="#" class="btn">Learn More</a>
+            </div>
+            <div class="portfolio-img">
+                <img src="cyberbullying.png" alt="">
+                <a target="_blank" href="#" class="btn">Learn More</a>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>wertax0</h2>
+        <div class="footer-social">
+            <a target="_blank" href="https://www.linkedin.com/in/nadeaputrinf/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/nadeap/"><i class="fa-brands fa-square-github"></i></a>
+            <a target="_blank" href="https://www.instagram.com/nadea.pnf/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/wertax0"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+ 
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Made with 🤍 by Nadea Putri</p>
+    </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+</body>
 </html>
